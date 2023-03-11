@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'BlackthornsBold';
+    src: url('../fonts/BlackthornsBold.ttf');
+}
+
+@font-face {
+    font-family: 'BlackthornsRegular';
+    src: url('../fonts/BlackthornsRegular.ttf');
+}
+
+@font-face {
+    font-family: 'MonografBold';
+    src: url('../fonts/MonografBold.ttf');
+}
+
+@font-face {
+    font-family: 'MonografRegular';
+    src: url('../fonts/MonografRegular.ttf');
+}
+
+@font-face {
+    font-family: 'ResagnictoBold';
+    src: url('../fonts/ResagnictoBold.ttf');
+}
+
+@font-face {
+    font-family: 'ResagnictoRegular';
+    src: url('../fonts/ResagnictoRegular.ttf');
+}
+
+:root {
+    --bs-black: #000;
+    --bs-white: #fff;
+}
+
+.next-video-title{
+    font-size: 50px;
+    position: absolute;
+    top: 25%;
+    z-index: 1;
+    width: 100%;
+    font-family: 'BlackthornsBold';
+    color: var(--bs-white);
+}
+
+.next-video-btn{
+    position: absolute;
+    top: 45%;
+    z-index: 1;
+}
+
+@media screen and (max-width: 550px) {
+    .next-video-title{
+        font-size: 25px;
+        top: 10%;
+    }
+
+    .next-video-btn{
+        top: 20%;
+        left: 45%;
+    }
+}
+
+
