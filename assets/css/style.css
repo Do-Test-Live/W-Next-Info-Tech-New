@@ -68,8 +68,13 @@ body{
     transition: all .7s ease;
 }
 
-.next-section-title {
+.next-section-title div div h1{
     font-family: 'BlackthornsBold';
+    color: var(--bs-white);
+}
+
+.next-section-title div div p{
+    font-family: 'MonografRegular';
     color: var(--bs-white);
 }
 
@@ -218,5 +223,93 @@ body{
 .next-content-paragraph{
     font-family: 'MonografRegular';
     text-align: justify;
+}
+
+.single-blog{
+    position: relative;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    margin-bottom: 30px;
+}
+
+.single-blog::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 0, 0, 0)), to(rgba(14, 1, 41, 0.99)));
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(14, 1, 41, 0.99));
+}
+
+.single-blog span {
+    font-family: 'BlackthornsBold';
+    background-color: #ffffff;
+    color: #212121;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    padding: 8px 20px;
+    font-weight: 600;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.single-blog .blog-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 30px;
+}
+
+.single-blog .blog-content h3 {
+    font-family: 'MonografBold';
+    margin-bottom: 12px;
+    color: white;
+}
+
+.next-title{
+    font-family: 'BlackthornsBold';
+    color: white;
+}
+
+.next-content{
+    font-family: 'MonografBold';
+    color: white;
+}
+
+.next-details-image{
+    border-radius: 15px;
+}
+
+.next-details-tab{
+    color: white;
+}
+
+.next-details-tab-content{
+    color: white;
+}
+
+ul.next-list{
+    list-style: none;
+    padding-left: unset;
+}
+
+.nav-pills .nav-link{
+    font-family: 'BlackthornsBold';
+}
+
+.nav-pills .nav-link:hover{
+    color: #ff54ff;
+}
+
+.nav-pills .nav-link.active{
+    border-radius: 7px 25px;
+    background: linear-gradient(45deg, rgb(239, 7, 129) 0%, rgb(239, 7, 129) 6%, rgb(208, 10, 112) 6%, rgb(208, 10, 112) 25%, rgb(177, 13, 96) 25%, rgb(177, 13, 96) 40%, rgb(147, 16, 79) 40%, rgb(147, 16, 79) 45%, rgb(116, 19, 62) 45%, rgb(116, 19, 62) 53%, rgb(85, 22, 46) 53%, rgb(85, 22, 46) 66%, rgb(54, 25, 29) 66%, rgb(54, 25, 29) 100%);
+    letter-spacing: .2em;
+    border: 1px solid white;
+    color: white;
 }
 
