@@ -313,3 +313,14 @@ ul.next-list{
     color: white;
 }
 
+.next-footer{
+    font-size: 12px;
+    font-family: 'ResagnictoRegular';
+    color: white;
+}
+
+.next-section-title{
+    font-family: 'BlackthornsBold';
+    color: white;
+}
+
