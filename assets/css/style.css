@@ -53,7 +53,7 @@ body{
 }
 
 .next-video-btn {
-    font-family: 'MonografBold';
+    font-family: 'BlackthornsBold';
     width: 220px;
     position: absolute;
     top: 43%;
@@ -79,6 +79,7 @@ body{
 .next-section-title div div p{
     font-family: 'MonografRegular';
     color: var(--bs-white);
+    font-size: 25px;
 }
 
 .next-video-btn:hover {
@@ -99,7 +100,7 @@ body{
     width: 300px;
     height: 400px;
     box-shadow: 0px 0px 11px 4px rgb(255 0 255);
-    filter: blur(1px);
+    filter: blur(2px);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -187,15 +188,17 @@ body{
 }
 
 .next-about-card-1{
-    background: url("../images/background/1.jpg") no-repeat;
+    background: linear-gradient(to top, #ff35fd78, #203a4300, #2c536400), url("../images/background/1.jpg") no-repeat;
     background-size: cover;
     color: var(--bs-white);
+    box-shadow: rgb(255, 0, 255) 0px 0px 11px 4px;
 }
 
 .next-about-card-2{
-    background: url("../images/background/2.jpg") no-repeat;
+    background:  linear-gradient(to top, #ff35fd78, #203a4300, #2c536400), url("../images/background/2.jpg") no-repeat;
     background-size: cover;
     color: var(--bs-white);
+    box-shadow: rgb(255, 0, 255) 0px 0px 11px 4px;
 }
 
 .swiper-slide div{
@@ -213,6 +216,7 @@ body{
     text-transform: uppercase;
     letter-spacing: .1em;
     transition: all .7s ease;
+    box-shadow: 0px 0px 11px 4px rgb(255 0 255);
 }
 
 .next-btn:hover {
@@ -415,6 +419,11 @@ ul.next-list{
     visibility: hidden;
 }
 
+.logo{
+    width: 80px;
+    margin-left: 22px;
+}
+
 .slick-slide
 {
     display: none;
@@ -458,4 +467,11 @@ ul.next-list{
 
 .number{
     font-family: 'MonografBold';
+}
+
+.next-nav-link{
+    font-family: 'BlackthornsBold';
+    font-size: 15px;
+    color: white;
+    margin-left: 1.5em;
 }

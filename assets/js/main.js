@@ -1,18 +1,18 @@
-let menu=0;
-$(".navbar-toggler").click(function(){
-    if(menu===0){
-        document.getElementById("next-video-title").style.top = "25%";
-        document.getElementById("next-video-btn").style.top = "34%";
-        menu=1;
-    }else{
+let menu = 0;
+$(".navbar-toggler").click(function () {
+    if (menu === 0) {
+        document.getElementById("next-video-title").style.top = "48%";
+        document.getElementById("next-video-btn").style.top = "58%";
+        menu = 1;
+    } else {
         document.getElementById("next-video-title").style.top = "10%";
         document.getElementById("next-video-btn").style.top = "20%";
-        menu=0;
+        menu = 0;
     }
 });
 
 
-$(document).ready(function(){
+$(document).ready(function () {
     let swiper = new Swiper(".swiper", {
         effect: "coverflow",
         grabCursor: true,
@@ -24,6 +24,11 @@ $(document).ready(function(){
             depth: 100,
             modifier: 2,
             slideShadows: true
+        },
+        autoplay:{
+            delay: 1000,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true,
         },
         spaceBetween: 60,
         loop: true,
