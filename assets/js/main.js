@@ -1,3 +1,17 @@
+let menu=0;
+$(".navbar-toggler").click(function(){
+    if(menu===0){
+        document.getElementById("next-video-title").style.top = "25%";
+        document.getElementById("next-video-btn").style.top = "34%";
+        menu=1;
+    }else{
+        document.getElementById("next-video-title").style.top = "10%";
+        document.getElementById("next-video-btn").style.top = "20%";
+        menu=0;
+    }
+});
+
+
 $(document).ready(function(){
     let swiper = new Swiper(".swiper", {
         effect: "coverflow",
@@ -13,10 +27,6 @@ $(document).ready(function(){
         },
         spaceBetween: 60,
         loop: true,
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true
-        }
     });
 
 

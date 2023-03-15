@@ -49,6 +49,7 @@ body{
     width: 100%;
     font-family: 'BlackthornsBold';
     color: var(--bs-white);
+    text-shadow: #FF00FF 0px 0px 15px, #FF00FF 0px 0px 20px, #FF00FF 0px 0px 30px;
 }
 
 .next-video-btn {
@@ -61,16 +62,18 @@ body{
     background: linear-gradient(277deg, rgba(213, 213, 213, 0.1) 0%, rgba(213, 213, 213, 0.02) 50%, rgba(42, 42, 42, 0.02) 50%, rgba(42, 42, 42, 0.2) 100%), linear-gradient(295deg, rgba(73, 73, 73, 0.3) 0%, rgba(73, 73, 73, 0.1) 50%, rgba(229, 229, 229, 0.1) 50%, rgba(229, 229, 229, 0.03) 100%), linear-gradient(145deg, rgba(77, 77, 77, 0.1) 0%, rgba(77, 77, 77, 0.1) 50%, rgba(123, 123, 123, 0.1) 50%, rgba(123, 123, 123, 0.1) 100%), linear-gradient(54deg, rgba(51, 51, 51, 0.3) 0%, rgba(51, 51, 51, 0.1) 50%, rgba(29, 29, 29, 0.2) 50%, rgba(29, 29, 29, 0.03) 100%), linear-gradient(170deg, rgba(9, 9, 9, 0.02) 0%, rgba(9, 9, 9, 0.02) 50%, rgba(243, 243, 243, 0.02) 50%, rgba(243, 243, 243, 0.02) 100%), linear-gradient(264deg, rgba(214, 214, 214, 0.01) 0%, rgba(214, 214, 214, 0.01) 50%, rgba(153, 153, 153, 0.01) 50%, rgba(153, 153, 153, 0.01) 100%), linear-gradient(90deg, rgb(99, 48, 222), rgb(76, 212, 233));
     padding: 1em 1.5em;
     border: 1px solid black;
-    border-radius: 25px 7px;
+    border-radius: 25px 25px;
     color: white;
     text-transform: uppercase;
     letter-spacing: .1em;
     transition: all .7s ease;
+    box-shadow: 0px 0px 11px 4px rgb(255 0 255);
 }
 
 .next-section-title div div h1{
     font-family: 'BlackthornsBold';
     color: var(--bs-white);
+    text-shadow: #FF00FF 0px 0px 15px, #FF00FF 0px 0px 20px, #FF00FF 0px 0px 30px;
 }
 
 .next-section-title div div p{
@@ -79,7 +82,7 @@ body{
 }
 
 .next-video-btn:hover {
-    border-radius: 7px 25px;
+    border-radius: 25px 25px;
     background: linear-gradient(45deg, rgb(239, 7, 129) 0%, rgb(239, 7, 129) 6%, rgb(208, 10, 112) 6%, rgb(208, 10, 112) 25%, rgb(177, 13, 96) 25%, rgb(177, 13, 96) 40%, rgb(147, 16, 79) 40%, rgb(147, 16, 79) 45%, rgb(116, 19, 62) 45%, rgb(116, 19, 62) 53%, rgb(85, 22, 46) 53%, rgb(85, 22, 46) 66%, rgb(54, 25, 29) 66%, rgb(54, 25, 29) 100%);
     letter-spacing: .2em;
     border: 1px solid white;
@@ -101,7 +104,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: self-start;
+    align-items: center;
     border: 2px solid #ff00f9;
 }
 
@@ -125,6 +128,7 @@ body{
     letter-spacing: 2px;
     font-size: 25px;
     text-align: center;
+    align-items: center;
 }
 
 
@@ -137,6 +141,7 @@ body{
     margin-bottom: 15px;
     padding: 25px 25px 0 25px;
     text-align: center;
+    align-items: center;
 }
 
 .swiper-slide--one {
@@ -195,17 +200,15 @@ body{
 
 .swiper-slide div{
     height: 150px;
+    align-items: center;
 }
 
 .next-btn{
     font-family: 'MonografBold';
-    width: 220px;
-    position: absolute;
-    z-index: 1;
     background: linear-gradient(277deg, rgba(213, 213, 213, 0.1) 0%, rgba(213, 213, 213, 0.02) 50%, rgba(42, 42, 42, 0.02) 50%, rgba(42, 42, 42, 0.2) 100%), linear-gradient(295deg, rgba(73, 73, 73, 0.3) 0%, rgba(73, 73, 73, 0.1) 50%, rgba(229, 229, 229, 0.1) 50%, rgba(229, 229, 229, 0.03) 100%), linear-gradient(145deg, rgba(77, 77, 77, 0.1) 0%, rgba(77, 77, 77, 0.1) 50%, rgba(123, 123, 123, 0.1) 50%, rgba(123, 123, 123, 0.1) 100%), linear-gradient(54deg, rgba(51, 51, 51, 0.3) 0%, rgba(51, 51, 51, 0.1) 50%, rgba(29, 29, 29, 0.2) 50%, rgba(29, 29, 29, 0.03) 100%), linear-gradient(170deg, rgba(9, 9, 9, 0.02) 0%, rgba(9, 9, 9, 0.02) 50%, rgba(243, 243, 243, 0.02) 50%, rgba(243, 243, 243, 0.02) 100%), linear-gradient(264deg, rgba(214, 214, 214, 0.01) 0%, rgba(214, 214, 214, 0.01) 50%, rgba(153, 153, 153, 0.01) 50%, rgba(153, 153, 153, 0.01) 100%), linear-gradient(90deg, rgb(99, 48, 222), rgb(76, 212, 233));
-    padding: 1em 1.5em;
+    padding: 1em 2em;
     border: 1px solid black;
-    border-radius: 25px 7px;
+    border-radius: 25px 25px;
     color: white;
     text-transform: uppercase;
     letter-spacing: .1em;
@@ -213,7 +216,7 @@ body{
 }
 
 .next-btn:hover {
-    border-radius: 7px 25px;
+    border-radius: 25px 25px;
     background: linear-gradient(45deg, rgb(239, 7, 129) 0%, rgb(239, 7, 129) 6%, rgb(208, 10, 112) 6%, rgb(208, 10, 112) 25%, rgb(177, 13, 96) 25%, rgb(177, 13, 96) 40%, rgb(147, 16, 79) 40%, rgb(147, 16, 79) 45%, rgb(116, 19, 62) 45%, rgb(116, 19, 62) 53%, rgb(85, 22, 46) 53%, rgb(85, 22, 46) 66%, rgb(54, 25, 29) 66%, rgb(54, 25, 29) 100%);
     letter-spacing: .2em;
     border: 1px solid white;
@@ -221,7 +224,7 @@ body{
 }
 
 .next-content-paragraph{
-    font-family: 'MonografRegular';
+    font-family: 'MonografBold';
     text-align: justify;
 }
 
@@ -230,6 +233,11 @@ body{
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
     margin-bottom: 30px;
+    box-shadow: 0px 0px 11px 4px rgb(255 0 255);
+    border-radius: 15px;
+}
+.single-blog img{
+    border-radius: 15px;
 }
 
 .single-blog::before {
@@ -241,33 +249,39 @@ body{
     height: 100%;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 0, 0, 0)), to(rgba(14, 1, 41, 0.99)));
     background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(14, 1, 41, 0.99));
+    border-radius: 15px;
 }
 
 .single-blog span {
     font-family: 'BlackthornsBold';
-    background-color: #ffffff;
-    color: #212121;
+    background-color: #000000a3;
+    color: #ffffff;
     position: absolute;
-    top: 20px;
+    top: 75px;
     left: 0;
     padding: 8px 20px;
     font-weight: 600;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
+    font-size: 25px;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 1px 0px 10px 4px rgb(255 0 255);
 }
 
 .single-blog .blog-content {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 0;
-    padding: 30px;
+    bottom: 55px;
+    padding: 30px 0px 30px 30px
 }
 
-.single-blog .blog-content h3 {
+.single-blog .blog-content h4 {
     font-family: 'MonografBold';
     margin-bottom: 12px;
     color: white;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .next-title{
@@ -306,7 +320,7 @@ ul.next-list{
 }
 
 .nav-pills .nav-link.active{
-    border-radius: 7px 25px;
+    border-radius: 15px 15px;
     background: linear-gradient(45deg, rgb(239, 7, 129) 0%, rgb(239, 7, 129) 6%, rgb(208, 10, 112) 6%, rgb(208, 10, 112) 25%, rgb(177, 13, 96) 25%, rgb(177, 13, 96) 40%, rgb(147, 16, 79) 40%, rgb(147, 16, 79) 45%, rgb(116, 19, 62) 45%, rgb(116, 19, 62) 53%, rgb(85, 22, 46) 53%, rgb(85, 22, 46) 66%, rgb(54, 25, 29) 66%, rgb(54, 25, 29) 100%);
     letter-spacing: .2em;
     border: 1px solid white;
@@ -322,6 +336,7 @@ ul.next-list{
 .next-section-title{
     font-family: 'BlackthornsBold';
     color: white;
+    text-shadow: #FF00FF 0px 0px 15px, #FF00FF 0px 0px 20px, #FF00FF 0px 0px 30px;
 }
 
 .slick-slide {
@@ -439,4 +454,8 @@ ul.next-list{
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+
+.number{
+    font-family: 'MonografBold';
 }
