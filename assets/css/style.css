@@ -183,7 +183,9 @@ body{
 
     .next-video-btn {
         top: 20%;
-        left: 23%;
+        left: 32%;
+        width: 120px;
+        font-size: 10px;
     }
 }
 
@@ -474,4 +476,24 @@ ul.next-list{
     font-size: 15px;
     color: white;
     margin-left: 1.5em;
+}
+
+.marquee {
+    position: relative;
+    color: white;
+    width: 2750px;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: marquee 15s linear infinite;
+    font-family: 'BlackthornsBold';
+}
+
+@keyframes marquee {
+    0% {
+        left: 10%;
+    }
+    100% {
+        left: -50%;
+    }
 }
